@@ -11,10 +11,10 @@
     <body>
       <nav>
         <!--MUST CHANGE LINKS #DELETE-->
-        <a href="C:\Users\Graham Schmidt\Documents\Harvard_WebDev\project0/index.html">Home</a>
-        <a href="C:\Users\Graham Schmidt\Documents\Harvard_WebDev\project0/spring-awakening.html">Spring Awakening</a> |
-        <a href="C:\Users\Graham Schmidt\Documents\Harvard_WebDev\project0/edc-orlando.html">EDC Orlando</a> |
-        <a href="C:\Users\Graham Schmidt\Documents\Harvard_WebDev\project0/shows.html">Individual Shows</a> |
+        <a href="/proj0demo/index.html">Home</a>
+        <a href="/proj0demo/spring-awakening.html">Spring Awakening</a> |
+        <a href="/proj0demo/edc-orlando.html">EDC Orlando</a> |
+        <a href="/proj0demo/shows.html">Individual Shows</a> |
       </nav>
       <div class="main_heading">
         <h1> Best shows I've ever been to! </h1>
@@ -31,7 +31,7 @@
           But it had never been a standout genre to me as rock, metal, and hip-hop mostly filled my playlists. However, one summer I ended up at a single day of the Chicago music festival <a href="https://www.northcoastfestival.com/">North Coast</a> and caugth a set from Zedd himself.
         I loved the experience, and while I certianly would go to another show, I was barely willing to spend the money to come to a single day, and couldn't stomach the idea of spending triple that amount for a full weekend.
       It wouldn't be until three years later and a fateful impulse purchase to see that same artists that I'd discover a new passion in my life.</p>
-          <p>And it all began <a href="C:\Users\Graham Schmidt\Documents\Harvard_WebDev\project0/spring-awakening.html">here</a>...</p>
+          <p>And it all began <a href="/proj0demo/spring-awakening.html">here</a>...</p>
               </div>
             </div>
           </div>
