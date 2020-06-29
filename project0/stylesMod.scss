@@ -1,0 +1,112 @@
+/* scss variables */
+$darkgray: #333;
+$medgray: #474747;
+
+h1, h2, h3{
+  margin: 25px 0 25px 50px;
+}
+
+%header {
+  margin: 25px 0 25px 50px;
+}
+
+
+.teaser {
+    @extend %header;
+    color: $medgray;
+}
+
+/* responsive @media query */
+@media (max-width: 640px) {
+  .carousel-inner > .carousel-item {
+    width: 100%;
+  }
+  body {
+    background: $darkgray;
+    color: white;
+  }
+  .teaser {
+    color: white;
+  }
+  nav {
+    height: 75px !important;
+    color: white;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    margin-top: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  nav > a {
+      color: white;
+      text-align: center;
+      padding: 10px 10px 10px 10px !important;
+      margin-top: 35px;
+      margin-bottom: 10px;
+      text-decoration: none;
+    }
+}
+nav {
+    height: 45px;
+    padding-top: 10px;
+    overflow: hidden;
+    background-color: $darkgray;
+  }
+nav > a {
+    color: white;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    margin-top: 35px;
+    text-decoration: none;
+  }
+
+/* SCSS Nesting */
+.container {
+    padding: 10px;
+
+    ul {
+      list-style-type: none;
+    }
+}
+p {
+  padding-left: 15px;
+}
+
+.banner {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  margin-top: 40px;
+}
+
+.screenshot {
+  float: right;
+  margin: 20px;
+}
+
+.carousel-inner > .carousel-item {
+   max-width: 840px;
+
+}
+
+.carousel-item > img {
+  align-content: center;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.center-block {
+  float:none;
+}
+
+#carouselContainer {
+  background-color: #474747;
+}
+
+.screenshot {
+  max-width: 20%;
+}
